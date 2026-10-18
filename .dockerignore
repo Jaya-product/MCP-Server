@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+.credentials
+*.token.json
+tokens.json
+*.log
+.DS_Store
+.system_generated

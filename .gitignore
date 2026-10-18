@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+build/
+*.tsbuildinfo
+
+# Credentials and Secrets (CRITICAL: NEVER COMMIT TO GIT)
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+tokens.json
+*.token.json
+.credentials/
+client_secret*.json
+credentials.json
+
+# Test Coverage & Logs
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.system_generated/

@@ -1,0 +1,29 @@
+{
+  "claudeDesktopExample": {
+    "mcpServers": {
+      "google-workspace": {
+        "command": "node",
+        "args": ["c:/Users/jaya.manocha/Documents/myProjects/MCP/dist/src/index.js"],
+        "env": {
+          "GOOGLE_CLIENT_ID": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+          "GOOGLE_CLIENT_SECRET": "YOUR_CLIENT_SECRET",
+          "TOKEN_STORAGE_PATH": "c:/Users/jaya.manocha/Documents/myProjects/MCP/.credentials/tokens.json",
+          "REQUIRE_EMAIL_CONFIRMATION": "true"
+        }
+      }
+    }
+  },
+  "cursorMcpExample": {
+    "mcpServers": {
+      "google-workspace": {
+        "command": "node",
+        "args": ["c:/Users/jaya.manocha/Documents/myProjects/MCP/dist/src/index.js"],
+        "env": {
+          "GOOGLE_CLIENT_ID": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+          "GOOGLE_CLIENT_SECRET": "YOUR_CLIENT_SECRET",
+          "TOKEN_STORAGE_PATH": "c:/Users/jaya.manocha/Documents/myProjects/MCP/.credentials/tokens.json"
+        }
+      }
+    }
+  }
+}
